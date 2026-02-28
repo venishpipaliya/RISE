@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <form action="submit.html" method="post">
+        <fieldset>
+            <legend>User Registratin Form</legend>
+
+            <div>
+                <label for="Full Name">Full Name</label>
+                <input type="text" name="name" id="name" 
+                placeholder="Firstname Lastname" required pattern="^[a-zA-Z]+([ \-\'][a-zA-Z]+)*$">
+            </div>
+            <div>
+                <label for="About Yourself">About Yourself</label>
+                <textarea name="About Yourself" id="textarea"
+                cols="50" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="Email">Email Address </label>
+                <input type="email" id="email" required 
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                title="Please enter a valid email address (e.g., name@domain.com)">
+            </div>
+            <div>
+                <label for="Password">password</label>
+                <input type="password" id="password" name="Password" 
+                min="8"  required>
+            </div>
+            <div>
+                <label for="Phone Number">Phone Number</label>
+                <input type="tel" id="phone" name="Phone Number" 
+                pattern="[0-9]{10}"
+                title="10 digit phone number" required>
+            </div>
+            <div>
+                <label for="Website">Website</label>
+                <input type="url" name="Website" id="Website">
+            </div>
+            <div>
+                <label for="Skills">Skills</label><br>
+                <input type="checkbox" name="HTML" id="html" checked>
+                <label for="Html">HTML</label><br>
+                <input type="checkbox" name="CSS" id="css">
+                <label for="CSS">CSS</label><br>
+                <input type="checkbox" name="Java Script" id="javascript">
+                <label for="Java Script">Java Script</label><br>
+            </div>
+
+            <div>
+                <label for="Gender">Gender</label><br>
+                <input type="radio" name="Gender" id="male" checked>
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="female" >
+                <label for="Female">Female</label>
+            </div>
+
+            <div>
+                <label for="Color">Color</label>
+                <input type="color" id="color" value="#20f596">
+            </div>
+
+            <div>
+                <label for="Experience Level">Experience Level</label>
+                <input type="number" name="Experience Level" id="Experience"
+                min="0" max="10" step="2">
+            </div>
+
+            <div>
+                <label for="Search Interest">Search Interest</label>
+                <input type="search" name="Search Interest" id="Search">
+            </div>
+
+            <div>
+                <label for="Date of Birth">Date of Birth</label>
+                <input type="date" name="Date of Birth" id="DOB"
+                max="2005-12-31">
+            </div>
+
+            <div>
+                <label for="Avilable Time">Avilable Time</label>
+                <input type="time" name="Avilable Time" id="Avilable Time"
+                min="09:00" max="18:30">
+            </div>
+
+            <div>
+                <label for="Joining Month">Joining Month</label>
+                <input type="month" name="Joining Month" id="Joining Month"
+                value="2026-01-09">
+            </div>
+            <div>
+                <label for="Training Week">Training Week</label>
+                <input type="week" name="Training Week" id="Training Week"
+                value="2026-W07">
+            </div>
+            <div>
+                <label for="Interview Slot">Interview Slot</label>
+                <input type="time" name="Interview Slot" id="Interview Slot">
+            </div>
+            <div>
+                <label for="Technology">technology</label>
+                <select name="Technology" id="technologies">
+                <option value=".net">.NET</option>
+                <option value="angular">Angular</option>
+                <option value="java">Java</option>
+                <option value="reactJS">ReactJS</option>
+                <option value="QA"></option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Resume">Resume</label>
+                <input type="file" name="Resume" id="Resume" accept=".pdf">
+            </div>
+
+            <div>
+                <input type="hidden" name="hidden" value="1256">
+            </div>
+
+            <div>
+                <button type="submit">submit</button>
+            </div>
+            <div>
+                <button type="reset">Reser</button>
+            </div>
+            <div>
+                <button type="button">Button</button>
+            </div>
+
+
+
+                
+        </fieldset>
+    
+       
+
+
+
+    </form>
+</body>
+</html>
