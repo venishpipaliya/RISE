@@ -1,7 +1,8 @@
 
 body{
     background-image: url('codioful-formerly-gradienta-.jpg');
-    background-size: cover;
+    background-size: 33.33%;
+
 }
 #box1{
     height: 150px;
@@ -30,16 +31,16 @@ body{
 
 #box3{
     height: 120px;
-    width: 150px;
+    width: 250px;
     background-color: yellow;
     position: fixed;
-    top: 600px;
-    left:1400px;
+    bottom: 0px;
+    right:0px;
 
 }
 
 #box3:hover{
-    transform: scale(0.75);
+    transform: scale(0.70);
     background-color: rgb(15, 156, 32);
 }
 
@@ -59,7 +60,7 @@ body{
     background-color: rgb(101, 12, 202);
     position: sticky;
     left: 250px;
-    top: 100px;
+    top: 20px;
     font-size: x-large;
 
 }
