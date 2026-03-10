@@ -1,0 +1,93 @@
+#div1>p::first-letter{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+#div2>p::first-line{
+    background-color: rgb(225, 195, 155);
+    font-weight: bold;
+}
+
+#div3>p::before{
+    content: 'NOTE:';
+    color: brown;
+    font-weight: bold;
+}
+
+#div4>p::after{
+    content: '© 2026';
+    
+}
+
+li:first-child{
+    color:red
+}
+
+li:nth-child(2){
+    font-weight: bold;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(odd){
+    background-color: rgb(193, 243, 250);
+}
+
+li:nth-child(even){
+    background-color: rgb(138, 239, 145);
+}
+
+#div6>a[target="_blank"]{
+    color: red;
+}
+
+#div6>a[href^="https"]{
+    font-weight: bold;
+}
+
+#div6>a:hover{
+    color: green;
+}
+
+#div7>img[src$=".png"]{
+    border: 10px solid red;
+}
+
+#div8>input[placeholder*="First Name"]{
+    background-color: bisque;
+}
+
+#div9 p{
+    color: blueviolet;
+}
+
+#div10>p{
+    color: rgb(27, 187, 126);
+}
+
+#div11>h2+p{
+    color: blueviolet;
+    font-weight: bold;
+}
+
+#div12>h2+p{
+    font-style: italic;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+
+#div13>input:focus{
+    background-color: lightgreen;
+    border: 2px solid red;
+    outline: none;
+}
+
+#div14>input:checked+label{
+    color: brown;
+    font-weight: bolder;
+    font-size: 25px;
+}
+

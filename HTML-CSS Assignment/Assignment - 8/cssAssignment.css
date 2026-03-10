@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Oswald-Regular;
+    src: url(../Oswald/static/Oswald-Regular.ttf);
+}
+
+body{
+    background-image: url("codioful-formerly-gradienta-.jpg");
+    background-size: cover;
+    
+}
+
+#font-style{
+    font-family: Oswald-Regular;
+    font-style: italic;
+    font-size: large;
+    font-weight: 500;
+    
+
+}
+
+#text-style{
+    color: red;
+    text-align: left;
+    text-indent: 35px;
+    text-shadow: 5px 5px 5px grey;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    text-decoration: overline;
+    text-decoration-color: green;
+}
+
+#div4, #div5, #div6, #div7{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+    
+} 
+
+#div4{
+    overflow: visible;
+}
+
+#div5{
+    overflow: hidden;
+}
+
+#div6{
+    overflow: scroll;
+}
+
+#div7{
+    overflow: auto hidden;
+}

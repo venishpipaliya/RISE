@@ -1,0 +1,80 @@
+
+body{
+    background-image: url('codioful-formerly-gradienta-.jpg');
+    background-size: cover;
+}
+#box1{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    position: absolute;
+    left: 900px;
+    top: 20px;
+    transform: skew(35deg);
+    font-size: 30px;
+   
+}
+
+#box2{
+    height: 150px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 900px;
+    top: 200px;
+    font-size: x-large;
+    transform: rotate(90deg);
+    z-index: 2;
+
+}
+
+#box3{
+    height: 120px;
+    width: 150px;
+    background-color: yellow;
+    position: fixed;
+    top: 600px;
+    left:1400px;
+
+}
+
+#box3:hover{
+    transform: scale(0.75);
+    background-color: rgb(15, 156, 32);
+}
+
+#box4{
+    height: 100px;
+    width: 50px;
+    background-color: rgb(4, 196, 26);
+     position:static;
+     font-size: x-large;
+
+
+}
+
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(101, 12, 202);
+    position: sticky;
+    left: 250px;
+    top: 100px;
+    font-size: x-large;
+
+}
+
+#box6{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(168, 113, 42);
+    position: absolute;
+    left: 950px;
+    top: 250px;
+    
+}
+
+#box6:hover{
+    z-index: 3;
+    background-color: aqua;
+}
