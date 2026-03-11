@@ -58,22 +58,27 @@ body{
     position:relative;
     font-size: larger;  
     overflow: hidden;
-   
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
 }
 
-.copyright{
-     display: flex;
-    float: left;
-}
+
 
 .footerMenu{
+    display: flex;
+    gap: 15px;
+}
+
+.footerMenu>a{
     color: white;
     text-decoration: none;
-    float: right;
-    flex-direction: row;
-    padding: 10px;
-   
-}
+ }
+
+ .footerMenu>a:hover{
+     transform: scale(1.2);
+    color: aqua;
+ }
 
 .media{
     background-color: green;
